@@ -1,0 +1,36 @@
+Class 4
+
+CSS Selectors (Cascading Styling Sheet)
+
+It is another way to locate an element uniquely
+Syntax:
+tagname[attribute = 'attribute value']
+
+Example: button[type = 'submit']
+
+Css does not give you an opportunity to identify an element by text
+
+Shortcuts for css:
+       Shortcut for className: "." -- classname
+       tagname.classNameValue
+      Example: input.nav-input
+
+        Shortcut for ID: "#" -- ID
+        tagname#idValue
+        Example: input#twotabsearchtextbox
+
+contains() method in css:
+* symbol represents contains() method -- tagname[attribute *= 'containing attribute value']
+Example: span[class *= 'form']
+
+starts-with method in css:
+^ symbol represents statrs-with method -- tagname[attribute ^= 'starting attribute value']
+Example: input[id ^= 'btn']
+
+ends-with method in css:
+$ symbol represents ens-with method -- tagname[attribute $= 'ending attribute value']
+Example: img[src $= 'syntax.png']
+
+
+
+
