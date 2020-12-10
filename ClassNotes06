@@ -1,0 +1,43 @@
+Class 6
+
+Alerts
+Alert is a pop up message. Alert takes complete focus from the webpage we are working.
+We cannot proceed further without handling an alert
+
+3 types of alerts:
+1. web based/ html alerts - we can simply inspect and perform action
+2. Javascript alert/ browser alerts - we can handle it by using switchTo() method
+3. Windows based alerts - we cannot handle with selenium
+
+Types of JS Alerts:
+1. simple alert - click ok
+2. Confirmation alert - either cancel or click ok
+3. Prompt alert - enter text and click ok
+
+To handle JS alert we only have 4 methods available:
+1. accept()
+2. dismiss()
+3. getText()
+4. sendKeys()
+
+Frames
+Frame is a seperate and independent window in a webpage. Frames allow developers to present
+multiple views in one webpage
+
+3 ways to interact with frames:
+1. by index
+2. by name or id
+3. by webelement
+
+in alerts - switch manually and it switches back automatically
+in frames - switch manually and switch back manually
+
+
+Task
+Navigate to http://syntaxtechs.com/selenium-practice/bootstrap-iframe.php
+verify the header text Syntax Technologies -......
+verify enroll today button is enabled
+
+HW
+Go to http://syntaxtechs.com/selenium-practice/javascript-alert-box-demo.php
+click on each button and handle the alert accordingly
