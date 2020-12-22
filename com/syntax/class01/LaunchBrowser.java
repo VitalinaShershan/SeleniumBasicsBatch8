@@ -16,5 +16,6 @@ public class LaunchBrowser {
         System.out.println(url);
         String title = driver.getTitle();  // getting title of the page
         System.out.println(title);
+        driver.quit();
     }
 }
