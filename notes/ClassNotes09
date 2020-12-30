@@ -1,0 +1,15 @@
+Class 09
+
+Tables divided into several pages, the navigation bar is called pagination
+
+HW
+Go to http://18.232.148.34/humanresources/symfony/web/index.php/auth/login
+click on leave
+click on leave list
+choose from "From calendar"
+choose from "To calendar"
+click only on cancelled and rejected checkboxes
+uncheck Pending Approval
+select IT support from DD
+click search
+quit the browser

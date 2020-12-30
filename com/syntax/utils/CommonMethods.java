@@ -16,7 +16,7 @@ public class CommonMethods {
      */
     public static void setUp() {
 
-        ConfigsReader.readProperties("/Users/syntax/IdeaProjects/Batch8/TestNGBasics/src/configs/configuration.properties");
+        ConfigsReader.readProperties("configs/configuration.properties");
         switch (ConfigsReader.getPropertyValue("browser").toLowerCase()) {
             case "chrome":
                 System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
