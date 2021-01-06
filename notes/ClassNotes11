@@ -1,0 +1,23 @@
+Class 11
+
+Upload documents:
+In order for us to upload documents using selenium we can simply do sendKeys(filePath);
+
+If sendKeys does not work, you can use Robot class.
+
+JS Executor:
+It is something that is present in our selenium tool and can be executed in different programming languages
+(java, C#, python etc.)
+JavaScriptExecutor is an interface.
+
+We should only be using JavaScriptExecutor only when we are not able to perfrom some actions such as:
+Click on elements
+Scroll the page
+refresh the page
+highlight the element
+scroll to a specific element
+
+What is POM?
+Page Object Model
+It is a design pattern which is mainly used to enhance test maintenance and reduce code duplication
+
